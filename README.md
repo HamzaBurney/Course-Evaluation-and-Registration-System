@@ -6,7 +6,7 @@ This project is a C++ based application that simulates a university-level Course
 
 ```
 ├── Course.h                  # Course class definition
-├── Date.h                    # Date management (possibly for exams)
+├── Date.h                    # Date management 
 ├── Display.h                 # Handles output displays
 ├── main.cpp                  # Entry point of the application
 ├── Student.h / Teacher.h     # Definitions for Student and Teacher entities
