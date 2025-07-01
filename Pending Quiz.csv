@@ -1,0 +1,39 @@
+Programming Fundamentals,Variables and Data Types,1800
+2023,5,1
+15,0,0
+Which of the following is not a valid data type in most programming languages? a) Integer b) String c) Boolean d) Character ,True or False: In programming  a variable can store different data types at different times. ,Explain the concept of a variable in programming and provide an example.
+"What is the data type of the variable ""price"" if it stores a decimal number? a) Integer b) Float c) String d) Boolean ",True or False: Variable names are case-sensitive in most programming languages.,What is the difference between a variable and a constant?
+Which of the following variables stores true/false values? a) Integer b) Float c) Boolean d) String ,True or False: The value of a variable can be changed during program execution.,How do you declare a variable in most programming languages?
+In programming  a variable is: a) A fixed value that cannot be changed b) A container for storing data c) A keyword used for loops d) An error in the code ,True or False: A variable must be declared before it can be used.,
+Which of the following is a valid variable name? a) 1count b) total count c) totalCount d) count$ ,,
+d,t,A variable in programming is a named container that can hold a value. It allows programmers to store and manipulate data. For example in Python we can declare a variable named age and assign it a value like 25: age = 25.
+b,t, A variable can hold different values during program execution and its value can be changed while a constant represents a fixed value that does not change throughout the program.
+c,t,In most programming languages a variable is declared by specifying its name and optionally its data type. For example in C++ you can declare an integer variable named num as follows: int num
+b,t,
+c,,
+Programming Fundamentals,Control Structures,1200
+2023,1,5
+12,0,0
+Which control structure is used to execute a block of code repeatedly as long as a condition is true? a) if statement b) switch statement c) for loop d) while loop ,"True or False: The ""else if"" statement can be used multiple times in an if-else control structure.","Explain the difference between the ""while"" loop and the ""do-while"" loop."
+"What is the purpose of the ""else"" statement in an if-else control structure? a) It is used to repeat a block of code. b) It is used to specify multiple conditions. c) It is used to execute a block of code when the condition is false. d) It is used to skip the rest of the code block. ",True or False: The do-while loop executes the loop body at least once  even if the condition is false. ,"What is the purpose of the ""switch"" statement and how does it work?"
+"In a for loop  what does the ""initialization"" step do? a) It sets the loop condition. b) It increments the loop counter. c) It initializes the loop variable. d) It defines the loop body. ",True or False: A switch statement can be used with both numeric and string expressions.,How is a for loop different from a while loop?
+"What is the purpose of the ""break"" statement in a loop? a) It ends the loop and transfers control to the next iteration. b) It skips the rest of the code block and continues with the next iteration. c) It exits the loop and transfers control to the next statement after the loop. d) It restarts the loop from the beginning. ","True or False: The ""continue"" statement is used to skip the rest of the code block and continue with the next iteration of the loop.",Explain the concept of nested control structures with an example.
+Which control structure is used to select one of many code blocks to execute based on different conditions? a) if statement b) switch statement c) for loop d) while loop ,True or False: An if-else statement can be nested inside another if-else statement.,What are some common mistakes or pitfalls to avoid when using control structures?
+d,t,The while loop checks the condition before executing the loop body while the do-while loop checks the condition after executing the loop body. This means that the do-while loop always executes the loop body at least once even if the condition is false.
+c,t,The switch statement is used to select one of many code blocks to execute based on the value of an expression. It evaluates the expression and compares it with the values of the case labels. When a match is found the corresponding code block is executed. The break statement is used to exit the switch statement after a match.
+c,f,A for loop is typically used when the number of iterations is known in advance and it consists of three parts: initialization condition and increment/decrement. The initialization step is executed only once at the beginning the condition is checked before each iteration and the increment/decrement step is executed at the end of each iteration. In contrast a while loop is used when the number of iterations is not known in advance. It only checks the condition before each iteration and does not have a separate initialization or increment/decrement step.
+c,t,Nested control structures refer to the situation where one control structure is placed within another control structure. For example we can have an if statement nested inside a while loop. This allows for more complex decision-making and repetition patterns in a program.
+b,t,Some common mistakes include forgetting to include necessary curly braces or indentation leading to incorrect code blocks being executed. Another mistake is using assignment operator (=) instead of the equality operator (==) in conditions. 
+Object Oriented Programming,Classes and Objects,1200
+2023,1,1
+15,0,0
+Which keyword is used to define a class in C++? a) class b) struct c) object d) main ,True or False: Objects are instances of classes.,What is a class in C++?
+Which access specifier is used to make class members accessible within the class and its derived classes? a) public b) private c) protected d) friend ,True or False: A class can have multiple constructors with different parameter lists.,Explain the concept of object-oriented programming.
+"Which of the following is a correct way to create an object of a class named ""Person""? a) object Person b) Person obj c) create Person d) new Person ",True or False: In C++,How do you define a member function outside the class declaration?
+Which operator is used to access member functions and data members of an object? a) . b) -> c) :: d) : ,True or False: Destructors have the same name as the class and are prefixed with a tilde (~).,
+Which function is automatically called when an object of a class is created? a) initialize() b) main() c) constructor d) destructor ,,
+a,t,A class is a user-defined data type that encapsulates data and functions into a single unit called an object.
+c,t,Object-oriented programming (OOP) is a programming paradigm that organizes data and behavior into reusable structures called classes and objects. It promotes the concepts of encapsulation inheritance and polymorphism.
+b,t,Member functions can be defined outside the class declaration by using the scope resolution operator (::) with the class name and function name.
+a,t,
+c,,

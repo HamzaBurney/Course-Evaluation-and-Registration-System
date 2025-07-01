@@ -1,0 +1,187 @@
+,Programming Fundamentals,,
+Topics,MCQs,True/False Questions:,Descriptive Questions:
+Variables and Data Types,d,t,A variable in programming is a named container that can hold a value. It allows programmers to store and manipulate data. For example in Python we can declare a variable named age and assign it a value like 25: age = 25.
+Variables and Data Types,b,t, A variable can hold different values during program execution and its value can be changed while a constant represents a fixed value that does not change throughout the program.
+Variables and Data Types,c,t,In most programming languages a variable is declared by specifying its name and optionally its data type. For example in C++ you can declare an integer variable named num as follows: int num
+Variables and Data Types,b,t,The scope of a variable refers to the part of the program where the variable is accessible. It determines where and how long a variable can be used. Variables can have local scope (limited to a specific block or function) or global scope (accessible throughout the entire program).
+Variables and Data Types,c,f,Common rules for naming variables include using descriptive names starting with a letter or underscore avoiding reserved keywords and using camel case or underscores to separate words.
+Control Structures,d,t,The while loop checks the condition before executing the loop body while the do-while loop checks the condition after executing the loop body. This means that the do-while loop always executes the loop body at least once even if the condition is false.
+Control Structures,c,t,The switch statement is used to select one of many code blocks to execute based on the value of an expression. It evaluates the expression and compares it with the values of the case labels. When a match is found the corresponding code block is executed. The break statement is used to exit the switch statement after a match.
+Control Structures,c,f,A for loop is typically used when the number of iterations is known in advance and it consists of three parts: initialization condition and increment/decrement. The initialization step is executed only once at the beginning the condition is checked before each iteration and the increment/decrement step is executed at the end of each iteration. In contrast a while loop is used when the number of iterations is not known in advance. It only checks the condition before each iteration and does not have a separate initialization or increment/decrement step.
+Control Structures,c,t,Nested control structures refer to the situation where one control structure is placed within another control structure. For example we can have an if statement nested inside a while loop. This allows for more complex decision-making and repetition patterns in a program.
+Control Structures,b,t,Some common mistakes include forgetting to include necessary curly braces or indentation leading to incorrect code blocks being executed. Another mistake is using assignment operator (=) instead of the equality operator (==) in conditions. 
+Functions,c,f,A function parameter is a variable declared in the function definition that represents a value to be passed into the function. An argument on the other hand is the actual value that is passed into the function when it is called. In simple terms a parameter is a placeholder and an argument is the actual value that fills that placeholder.
+Functions,c,f,In most programming languages a function is defined by providing a function name a set of parameters (optional) and the function body.
+Functions,c,t,The return statement is used to end the execution of a function and return a value (if specified) to the caller. It allows the function to provide an output that can be stored or used for further calculations. On the other hand the print statement is used to display output on the screen or console
+Functions,c,t,A void function often used in languages like C/C++ is a function that does not return any value. Instead of using a return statement the function simply executes its code and then terminates. Void functions are typically used when the function is intended to perform some action or task without needing to return a value.
+Functions,a,f,In most programming languages an array can be passed as a parameter to a function by specifying the array name as the parameter along with the appropriate data type.
+,Object Oriented Programming,,
+Topics,MCQs,True/False Questions:,Descriptive Questions:
+Classes and Objects,a,t,A class is a user-defined data type that encapsulates data and functions into a single unit called an object.
+Classes and Objects,c,t,Object-oriented programming (OOP) is a programming paradigm that organizes data and behavior into reusable structures called classes and objects. It promotes the concepts of encapsulation inheritance and polymorphism.
+Classes and Objects,b,t,Member functions can be defined outside the class declaration by using the scope resolution operator (::) with the class name and function name.
+Classes and Objects,a,t,Private members are only accessible within the class itself protected members are accessible within the class and its derived classes and public members can be accessed from anywhere.
+Classes and Objects,c,f,'A constructor is a special member function of a class that is automatically called when an object of the class is created. It is used to initialize the object''s data members.'
+Inheritance,b,t,Inheritance is a feature of object-oriented programming that allows a class to inherit properties and behaviors from another class known as the base class or parent class.
+Inheritance,b,f,C++ supports multiple types of inheritance: single inheritance (a derived class inherits from a single base class) multiple inheritance (a derived class inherits from multiple base classes) hierarchical inheritance (multiple derived classes inherit from a single base class) and hybrid inheritance (a combination of multiple and hierarchical inheritance).
+Inheritance,b,f,Access specifiers (public private protected) in inheritance determine the visibility of the base class members in the derived class. Public inheritance allows public and protected members to be accessible protected inheritance allows protected members to be accessible and private inheritance hides all base class members.
+Inheritance,b,t,Function overriding is a feature in inheritance where a derived class provides its own implementation of a function that is already present in the base class. The function signatures must match and the derived class function is invoked when called through an object of the derived class.
+Inheritance,a,f,The virtual keyword is used to define a virtual function in a base class. When a derived class overrides the virtual function the virtual keyword ensures that the most derived function is called based on the actual type of the object rather than the declared type of the pointer or reference.
+Polymorphism,c,f,Compile-time polymorphism (static polymorphism) is resolved at compile-time based on the types of objects and function calls. Runtime polymorphism (dynamic polymorphism) is resolved at runtime based on the actual type of the object.
+Polymorphism,a,t,Function overloading is a feature of C++ that allows multiple functions with the same name but different parameters to coexist in the same scope. The compiler selects the appropriate function based on the number types and order of arguments in the function call.
+Polymorphism,c,t,Function overriding occurs when a derived class provides its own implementation of a function that is already present in the base class. It enables dynamic method dispatch where the actual function called is determined at runtime based on the type of the object.
+Polymorphism,a,f,An abstract class is a class that cannot be instantiated and is used as a base class for other classes. It contains at least one pure virtual function which must be overridden by derived classes.
+Polymorphism,a,f,Runtime polymorphism can be achieved through inheritance and virtual functions.
+,Introduction To Computing,,
+Topics,MCQs,True/False Questions:,Descriptive Questions:
+Variables and Data Types,d,t,int is used to store integer values while double is used to store floating-point values.
+Variables and Data Types,c,t,By using the const keyword before the variable declaration.
+Variables and Data Types,c,t,It returns the size of a variable or data type in bytes.
+Variables and Data Types,c,f,By providing an initial value during the variable declaration.
+Variables and Data Types,d,t,It can store values from -128 to 127.
+Control Structures and Loops,d,t,It allows selective execution of code based on a condition.
+Control Structures and Loops,c,t,The for loop provides a compact way to specify initialization condition and update in a single line.
+Control Structures and Loops,c,f,It allows the program to select and execute different blocks of code based on different cases.
+Control Structures and Loops,a,t,By using the break statement.
+Control Structures and Loops,a,f,The do-while loop always executes at least once while the while loop may not execute if the condition is initially false.
+Functions and Modular Programming,d,t,A function is a block of code that performs a specific task.
+Functions and Modular Programming,c,t,By specifying the return type function name and parameter list (if any).
+Functions and Modular Programming,c,t,Function overloading is the ability to define multiple functions with the same name but different parameter lists.
+Functions and Modular Programming,c,t,By using a pointer or by specifying the array size in the function parameter.
+Functions and Modular Programming,b,t,A function declaration declares the existence and signature of a function while a function definition provides the actual implementation of the function.
+,Data Structures,,
+Topics,MCQs,True/False Questions:,Descriptive Questions:
+Linked Lists in C++,c,f,A linked list is a data structure in which each element known as a node contains a value and a reference to the next node.
+Linked Lists in C++,a,t,Linked lists can dynamically grow or shrink in size have efficient insertions and deletions at any position and do not require contiguous memory allocation.
+Linked Lists in C++,d,t,In a singly linked list each node contains a value and a reference to the next node. Traversal is possible only in a forward direction.
+Linked Lists in C++,b,f,In a doubly linked list each node contains a value and references to both the next and previous nodes. Traversal is possible in both forward and backward directions.
+Linked Lists in C++,d,t,The time complexity for inserting an element at the end of a singly linked list is O(n) where n is the number of elements
+Binary Trees in C++,b,t,A binary tree is a hierarchical data structure in which each node has at most two children referred to as the left child and the right child.
+Binary Trees in C++,b,t,A binary tree is a general tree structure with no specific ordering of values while a binary search tree is a binary tree that follows a specific ordering such as smaller values on the left and larger values on the right.
+Binary Trees in C++,d,f,The height of a binary tree is the maximum number of edges in the longest path from the root node to any leaf node.
+Binary Trees in C++,c,t,Each node of a binary tree typically consists of a value and two references one for the left child and another for the right child. Null pointers are used to represent empty child positions.
+Binary Trees in C++,c,t,The time complexity for searching a value in a binary search tree is O(log n) on average where n is the number of nodes in the tree.
+Sorting Algorithms,a,t,A sorting algorithm is a method or procedure used to arrange elements in a specific order typically ascending or descending based on a certain comparison criterion.
+Sorting Algorithms,c,f,The time complexity of a sorting algorithm represents the amount of time it takes to execute the algorithm relative to the size of the input.
+Sorting Algorithms,d,t,Comparison-based sorting algorithms compare elements using a specific comparison criterion while non-comparison-based sorting algorithms exploit other properties of the elements such as their values or distribution.
+Sorting Algorithms,a,f,Merge Sort is an example of a stable sorting algorithm.
+Sorting Algorithms,c,t,Merge Sort is an example of a stable sorting algorithm.
+,Analysis of Algorithms,,
+Topics,MCQs,True/False Questions:,Descriptive Questions:
+Asymptotic Analysis,b,t,Asymptotic analysis is a technique used to describe the behavior of an algorithm as the input size approaches infinity.
+Asymptotic Analysis,b,f,Big-O notation is a mathematical notation used to describe the upper bound of the growth rate of a function.
+Asymptotic Analysis,b,f,'O(1) means that the algorithm''s time complexity is constant while O(n) means that the algorithm''s time complexity grows linearly with the input size.'
+Asymptotic Analysis,b,f,The purpose of asymptotic analysis is to provide an estimate of the running time or space complexity of an algorithm for very large input sizes.
+Asymptotic Analysis,c,t,The worst-case time complexity of an algorithm is the maximum amount of time it takes to execute for any input of size n.
+Sorting Algorithms,d,t,A sorting algorithm is an algorithm that arranges a list of elements in a particular order such as numerical or lexicographical order.
+Sorting Algorithms,d,f,In-place sorting refers to a sorting algorithm that rearranges the elements of the input list without requiring additional memory proportional to the input size.
+Sorting Algorithms,c,t,The worst-case and average-case time complexity of bubble sort is O(n^2) while the best-case time complexity is O(n) when the list is already sorted.
+Sorting Algorithms,c,t,The main advantage of merge sort is its consistent O(nlogn) time complexity regardless of the input sequence. It also guarantees stability in the sorting process.
+Sorting Algorithms,b,f,Quick sort works by selecting a pivot element from the list and partitioning the other elements into two sub-arrays according to whether they are less than or greater than the pivot. The process is then repeated recursively on the sub-arrays until the entire list is sorted.
+Graph Algorithms,c,t,A graph algorithm is an algorithm that operates on a graph data structure and solves various graph-related problems such as finding paths cycles or connectivity.
+Graph Algorithms,d,t,Breadth-first search (BFS) is a graph traversal algorithm that explores all the vertices of a graph level by level visiting the neighbors of a vertex before moving to the next level.
+Graph Algorithms,b,f,'The time complexity of Dijkstra''s algorithm is O((V + E) log V) where V is the number of vertices and E is the number of edges in the graph.'
+Graph Algorithms,b,f,The minimum spanning tree of a graph is a tree that spans all the vertices of the graph with the minimum possible total edge weight.
+Graph Algorithms,b,t,DFS explores the graph by going as deep as possible before backtracking while BFS explores the graph level by level. DFS is often used for topological sorting and cycle detection while BFS is commonly used for finding the shortest path.
+,Software Requirements Engineering,,
+Topics,MCQs,True/False Questions:,Descriptive Questions:
+Software Requirements Engineering,d,t,A variable in programming is a named container that can hold a value. It allows programmers to store and manipulate data. For example in Python we can declare a variable named age and assign it a value like 25: age = 25.
+Software Requirements Engineering,b,t, A variable can hold different values during program execution and its value can be changed while a constant represents a fixed value that does not change throughout the program.
+Software Requirements Engineering,c,t,In most programming languages a variable is declared by specifying its name and optionally its data type. For example in C++ you can declare an integer variable named num as follows: int num
+Software Requirements Engineering,b,t,The scope of a variable refers to the part of the program where the variable is accessible. It determines where and how long a variable can be used. Variables can have local scope (limited to a specific block or function) or global scope (accessible throughout the entire program).
+Software Requirements Engineering,c,f,Common rules for naming variables include using descriptive names starting with a letter or underscore avoiding reserved keywords and using camel case or underscores to separate words.
+Agile Software Development,d,t,The while loop checks the condition before executing the loop body while the do-while loop checks the condition after executing the loop body. This means that the do-while loop always executes the loop body at least once even if the condition is false.
+Agile Software Development,c,t,The switch statement is used to select one of many code blocks to execute based on the value of an expression. It evaluates the expression and compares it with the values of the case labels. When a match is found the corresponding code block is executed. The break statement is used to exit the switch statement after a match.
+Agile Software Development,c,f,A for loop is typically used when the number of iterations is known in advance and it consists of three parts: initialization condition and increment/decrement. The initialization step is executed only once at the beginning the condition is checked before each iteration and the increment/decrement step is executed at the end of each iteration. In contrast a while loop is used when the number of iterations is not known in advance. It only checks the condition before each iteration and does not have a separate initialization or increment/decrement step.
+Agile Software Development,c,t,Nested control structures refer to the situation where one control structure is placed within another control structure. For example we can have an if statement nested inside a while loop. This allows for more complex decision-making and repetition patterns in a program.
+Agile Software Development,b,t,Some common mistakes include forgetting to include necessary curly braces or indentation leading to incorrect code blocks being executed. Another mistake is using assignment operator (=) instead of the equality operator (==) in conditions. 
+Object-Oriented Programming (OOP),c,f,A function parameter is a variable declared in the function definition that represents a value to be passed into the function. An argument on the other hand is the actual value that is passed into the function when it is called. In simple terms a parameter is a placeholder and an argument is the actual value that fills that placeholder.
+Object-Oriented Programming (OOP),c,f,In most programming languages a function is defined by providing a function name a set of parameters (optional) and the function body.
+Object-Oriented Programming (OOP),c,t,The return statement is used to end the execution of a function and return a value (if specified) to the caller. It allows the function to provide an output that can be stored or used for further calculations. On the other hand the print statement is used to display output on the screen or console
+Object-Oriented Programming (OOP),c,t,A void function often used in languages like C/C++ is a function that does not return any value. Instead of using a return statement the function simply executes its code and then terminates. Void functions are typically used when the function is intended to perform some action or task without needing to return a value.
+Object-Oriented Programming (OOP),a,f,In most programming languages an array can be passed as a parameter to a function by specifying the array name as the parameter along with the appropriate data type.
+,Research Methodology,,
+Topics,MCQs,True/False Questions:,Descriptive Questions:
+Sampling Methods in Research Methodology,b,t,Probability sampling methods involve selecting participants based on random selection procedures while non-probability sampling methods involve selecting participants based on non-random procedures.
+Sampling Methods in Research Methodology,d,t,Convenience sampling involves selecting participants based on their availability and willingness to participate. The advantages of convenience sampling are that it is easy and inexpensive to carry out. The disadvantages are that it has a high risk of sampling bias and may not be representative of the population.
+Sampling Methods in Research Methodology,c,t,Stratified sampling involves dividing the population into subgroups and selecting participants from each subgroup. Cluster sampling involves dividing the population into clusters and selecting clusters at random for inclusion in the study. The main difference is that stratified sampling involves selecting participants from each subgroup while cluster sampling involves selecting entire clusters.
+Sampling Methods in Research Methodology,d,f,Purposive sampling involves selecting participants based on specific criteria related to the research question. It is used when the population is rare or difficult to access or when the research question requires a specific type of participant.
+Sampling Methods in Research Methodology,d,t,Systematic sampling involves selecting participants at regular intervals from a list of the population. Simple random sampling involves selecting participants at random from the population. The main difference is that systematic sampling involves selecting participants at regular intervals while simple random sampling involves selecting participants at random.
+Qualitative Research Methods,c,t,'Interviews are used in qualitative research to gather in-depth information about participants'' experiences and perspectives. Some potential advantages of using interviews are that they allow for flexibility in questioning and can provide detailed data. Some potential disadvantages are that they can be time-consuming and expensive and may be biased by the researcher''s presence.'
+Qualitative Research Methods,d,t,Grounded theory is a method of analyzing qualitative data that involves identifying and developing concepts based on the data itself. It is used in qualitative research to develop theories or explanations of phenomena based on the data rather than starting with a pre-existing theory.
+Qualitative Research Methods,a,t,Focus groups are used in qualitative research to gather data from a group of participants in a group setting. Some potential advantages of using focus groups are that they allow for data to be collected from a large number of participants in a relatively short amount of time and can provide rich detailed data. Some potential disadvantages are that they may be influenced by group dynamics and may not allow for in-depth exploration of individual experiences.
+Qualitative Research Methods,b,f,Ethnography is a method of collecting qualitative data that involves observing and participating in the daily lives of a group of people
+Qualitative Research Methods,c,t,'The role of the researcher in qualitative research is to collect and analyze data to gain an understanding of the phenomena being studied. Objectivity is maintained through the use of rigorous data collection and analysis techniques including reflexivity member checking and triangulation and by acknowledging and managing the researcher''s own biases and assumptions.'
+Sampling Methods,c,t,Probability sampling methods involve selecting participants from a population using a random process whereas non-probability sampling methods do not. Probability sampling methods ensure that every member of the population has an equal chance of being selected while non-probability sampling methods may introduce biases into the sample selection process.
+Sampling Methods,b,f,Systematic sampling involves selecting participants from a population using a fixed interval such as every 10th person on a list. It is used in research when the population is too large to use simple random sampling but still requires a representative sample.
+Sampling Methods,b,f,Cluster sampling involves selecting participants from a population using a random process but the sampling unit is a group or cluster rather than an individual. Some potential advantages of using cluster sampling are that it is less time-consuming and less expensive than other sampling methods and can result in a larger sample size. Some potential disadvantages are that it may introduce biases if the clusters are not representative of the population and may be less precise than other sampling methods.
+Sampling Methods,d,f,Stratified random sampling involves dividing the population into mutually exclusive and collectively exhaustive groups or strata and then selecting participants from each stratum using a random process.
+Sampling Methods,b,t,Snowball sampling involves selecting participants from a population based on referrals from other participants. It is used in research when the population is difficult to reach such as individuals with a rare disease or marginalized groups.
+,Big Data Analytics,,
+Topics,MCQs,True/False Questions:,Descriptive Questions:
+Data Mining ,a,t,A class is a user-defined data type that encapsulates data and functions into a single unit called an object.
+Data Mining ,c,t,Object-oriented programming (OOP) is a programming paradigm that organizes data and behavior into reusable structures called classes and objects. It promotes the concepts of encapsulation inheritance and polymorphism.
+Data Mining ,b,t,Member functions can be defined outside the class declaration by using the scope resolution operator (::) with the class name and function name.
+Data Mining ,a,t,Private members are only accessible within the class itself protected members are accessible within the class and its derived classes and public members can be accessed from anywhere.
+Data Mining ,c,f,'A constructor is a special member function of a class that is automatically called when an object of the class is created. It is used to initialize the object''s data members.'
+Predictive Analytics,b,t,Inheritance is a feature of object-oriented programming that allows a class to inherit properties and behaviors from another class known as the base class or parent class.
+Predictive Analytics,b,f,C++ supports multiple types of inheritance: single inheritance (a derived class inherits from a single base class) multiple inheritance (a derived class inherits from multiple base classes) hierarchical inheritance (multiple derived classes inherit from a single base class) and hybrid inheritance (a combination of multiple and hierarchical inheritance).
+Predictive Analytics,b,f,Access specifiers (public private protected) in inheritance determine the visibility of the base class members in the derived class. Public inheritance allows public and protected members to be accessible protected inheritance allows protected members to be accessible and private inheritance hides all base class members.
+Predictive Analytics,b,t,Function overriding is a feature in inheritance where a derived class provides its own implementation of a function that is already present in the base class. The function signatures must match and the derived class function is invoked when called through an object of the derived class.
+Predictive Analytics,a,f,The virtual keyword is used to define a virtual function in a base class. When a derived class overrides the virtual function the virtual keyword ensures that the most derived function is called based on the actual type of the object rather than the declared type of the pointer or reference.
+Data Visualization,c,f,Compile-time polymorphism (static polymorphism) is resolved at compile-time based on the types of objects and function calls. Runtime polymorphism (dynamic polymorphism) is resolved at runtime based on the actual type of the object.
+Data Visualization,a,t,Function overloading is a feature of C++ that allows multiple functions with the same name but different parameters to coexist in the same scope. The compiler selects the appropriate function based on the number types and order of arguments in the function call.
+Data Visualization,c,t,Function overriding occurs when a derived class provides its own implementation of a function that is already present in the base class. It enables dynamic method dispatch where the actual function called is determined at runtime based on the type of the object.
+Data Visualization,a,f,An abstract class is a class that cannot be instantiated and is used as a base class for other classes. It contains at least one pure virtual function which must be overridden by derived classes.
+Data Visualization,a,f,Runtime polymorphism can be achieved through inheritance and virtual functions.
+,Artificial Intelligence,,
+Topics,MCQs,True/False Questions:,Descriptive Questions:
+Natural Language Processing (NLP),d,t,int is used to store integer values while double is used to store floating-point values.
+Natural Language Processing (NLP),c,t,By using the const keyword before the variable declaration.
+Natural Language Processing (NLP),c,t,It returns the size of a variable or data type in bytes.
+Natural Language Processing (NLP),c,f,By providing an initial value during the variable declaration.
+Natural Language Processing (NLP),d,t,It can store values from -128 to 127.
+Reinforcement Learning,d,t,It allows selective execution of code based on a condition.
+Reinforcement Learning,c,t,The for loop provides a compact way to specify initialization condition and update in a single line.
+Reinforcement Learning,c,f,It allows the program to select and execute different blocks of code based on different cases.
+Reinforcement Learning,a,t,By using the break statement.
+Reinforcement Learning,a,f,The do-while loop always executes at least once while the while loop may not execute if the condition is initially false.
+Natural Language Processing,d,t,A function is a block of code that performs a specific task.
+Natural Language Processing,c,t,By specifying the return type function name and parameter list (if any).
+Natural Language Processing,c,t,Function overloading is the ability to define multiple functions with the same name but different parameter lists.
+Natural Language Processing,c,t,By using a pointer or by specifying the array size in the function parameter.
+Natural Language Processing,b,t,A function declaration declares the existence and signature of a function while a function definition provides the actual implementation of the function.
+,Deep Learning,,
+Topics,MCQs,True/False Questions:,Descriptive Questions:
+Convolutional Neural Networks (CNN),c,f,A linked list is a data structure in which each element known as a node contains a value and a reference to the next node.
+Convolutional Neural Networks (CNN),a,t,Linked lists can dynamically grow or shrink in size have efficient insertions and deletions at any position and do not require contiguous memory allocation.
+Convolutional Neural Networks (CNN),d,t,In a singly linked list each node contains a value and a reference to the next node. Traversal is possible only in a forward direction.
+Convolutional Neural Networks (CNN),b,f,In a doubly linked list each node contains a value and references to both the next and previous nodes. Traversal is possible in both forward and backward directions.
+Convolutional Neural Networks (CNN),d,t,The time complexity for inserting an element at the end of a singly linked list is O(n) where n is the number of elements
+Recurrent Neural Networks (RNN),b,t,A binary tree is a hierarchical data structure in which each node has at most two children referred to as the left child and the right child.
+Recurrent Neural Networks (RNN),b,t,A binary tree is a general tree structure with no specific ordering of values while a binary search tree is a binary tree that follows a specific ordering such as smaller values on the left and larger values on the right.
+Recurrent Neural Networks (RNN),d,f,The height of a binary tree is the maximum number of edges in the longest path from the root node to any leaf node.
+Recurrent Neural Networks (RNN),c,t,Each node of a binary tree typically consists of a value and two references one for the left child and another for the right child. Null pointers are used to represent empty child positions.
+Recurrent Neural Networks (RNN),c,t,The time complexity for searching a value in a binary search tree is O(log n) on average where n is the number of nodes in the tree.
+Generative Adversarial Networks ,a,t,A sorting algorithm is a method or procedure used to arrange elements in a specific order typically ascending or descending based on a certain comparison criterion.
+Generative Adversarial Networks ,c,f,The time complexity of a sorting algorithm represents the amount of time it takes to execute the algorithm relative to the size of the input.
+Generative Adversarial Networks ,d,t,Comparison-based sorting algorithms compare elements using a specific comparison criterion while non-comparison-based sorting algorithms exploit other properties of the elements such as their values or distribution.
+Generative Adversarial Networks ,a,f,Merge Sort is an example of a stable sorting algorithm.
+Generative Adversarial Networks ,c,t,Merge Sort is an example of a stable sorting algorithm.
+,Digital Image Processing,,
+Topics,MCQs,True/False Questions:,Descriptive Questions:
+Image Filtering Techniques,b,t,Asymptotic analysis is a technique used to describe the behavior of an algorithm as the input size approaches infinity.
+Image Filtering Techniques,b,f,Big-O notation is a mathematical notation used to describe the upper bound of the growth rate of a function.
+Image Filtering Techniques,b,f,'O(1) means that the algorithm''s time complexity is constant while O(n) means that the algorithm''s time complexity grows linearly with the input size.'
+Image Filtering Techniques,b,f,The purpose of asymptotic analysis is to provide an estimate of the running time or space complexity of an algorithm for very large input sizes.
+Image Filtering Techniques,c,t,The worst-case time complexity of an algorithm is the maximum amount of time it takes to execute for any input of size n.
+Image Segmentation,d,t,A sorting algorithm is an algorithm that arranges a list of elements in a particular order such as numerical or lexicographical order.
+Image Segmentation,d,f,In-place sorting refers to a sorting algorithm that rearranges the elements of the input list without requiring additional memory proportional to the input size.
+Image Segmentation,c,t,The worst-case and average-case time complexity of bubble sort is O(n^2) while the best-case time complexity is O(n) when the list is already sorted.
+Image Segmentation,c,t,The main advantage of merge sort is its consistent O(nlogn) time complexity regardless of the input sequence. It also guarantees stability in the sorting process.
+Image Segmentation,b,f,Quick sort works by selecting a pivot element from the list and partitioning the other elements into two sub-arrays according to whether they are less than or greater than the pivot. The process is then repeated recursively on the sub-arrays until the entire list is sorted.
+Imaging,c,t,A graph algorithm is an algorithm that operates on a graph data structure and solves various graph-related problems such as finding paths cycles or connectivity.
+Imaging,d,t,Breadth-first search (BFS) is a graph traversal algorithm that explores all the vertices of a graph level by level visiting the neighbors of a vertex before moving to the next level.
+Imaging,b,f,'The time complexity of Dijkstra''s algorithm is O((V + E) log V) where V is the number of vertices and E is the number of edges in the graph.'
+Imaging,b,f,The minimum spanning tree of a graph is a tree that spans all the vertices of the graph with the minimum possible total edge weight.
+Imaging,b,t,DFS explores the graph by going as deep as possible before backtracking while BFS explores the graph level by level. DFS is often used for topological sorting and cycle detection while BFS is commonly used for finding the shortest path.
